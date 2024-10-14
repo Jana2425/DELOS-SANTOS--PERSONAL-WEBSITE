@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px;
+}
+
+body{
+    background-image: url(cinnamoroll.png);
+
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: larger;
+    color: black
+}
+
+.navbar ul li{
+    list-style-type: none;
+    background-color: #a1c3ec;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 10px;
+    overflow: hidden;
+}
+.navbar a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.navbar a:hover{
+    background-color: #567c8d;
+    
+}
+.navbar li{
+    float: left;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3em;
+    font-style: inherit ;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    padding: 30px;
+    background-color: rgb(167, 193, 225);
+    border-radius: 25px;
+}
+
+.home h2 {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 16px;
+    font-style: inherit ;
+    font-weight: 300;
+    margin: 10px;
+    padding: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    padding: 40px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 25px;
+}
+    
+nav a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text{
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: rgb(167, 193, 225);
+}
+
+.paragraph{
+    text-align: justify;
+    font: 200;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.texts{
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: 15px;
+    overflow: hidden;
+    background-color: rgb(167, 193, 225);
+    margin-top: 110px;
+    border-radius: 20px;
+}
+
+.hobbies{
+    text-align: justify;
+    font: 200;
+}
+/* footer{
+    border-style: none;
+    text-decoration: none;
+    top: 100%;
+    left: 50%;
+} */

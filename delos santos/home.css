@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px;
+}
+
+body{
+    background-image: url(cinnamoroll.png);
+    
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: larger;
+    color: black
+}
+
+.navbar ul li{
+    list-style-type: none;
+    background-color: #a1c3ec;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 10px;
+    overflow: hidden;
+}
+.navbar a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.navbar a:hover{
+    background-color: #567c8d;
+    
+}
+.navbar li{
+    float: left;
+}
+
+
+.home h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 16px;
+    font-style: inherit ;
+    font-weight: 300;
+    margin: 0px;
+    padding: 50px;
+    font-weight: bolder;
+    position: unset;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    padding: 60px;
+    background-color: rgb(84, 108, 129);
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+    
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text{
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 10px;
+    overflow: hidden;
+    
+    background-color: rgb(167, 193, 225);
+}
+
+.paragraph{
+    text-align: justify;
+    font: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.texts{
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    right: 20%;
+    overflow: hidden;
+    background-color: rgb(167, 193, 225);
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+.hobbies{
+    text-align: justify;
+    font: 200;
+}
+
+
+/* footer{
+    border-style: none;
+    text-decoration: none;
+    top: 100%;
+    left: 50%;
+} */
